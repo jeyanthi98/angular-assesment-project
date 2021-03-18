@@ -1,0 +1,69 @@
+<cmp-sidebar></cmp-sidebar>
+<div class="container-fluid">
+    <div class="navbar">
+        <a  class="document-id">
+            <select>
+                <option value="">Docuemnt ID</option>
+                <option value={{document.Document_ID._id}} *ngFor="let document of documentList" >{{document.Document_ID.Document_ID}}</option>
+            </select>
+        </a>
+        <a  class="search-text">
+            <input type="text">
+            <div class="search-icon">
+                <img src="assets/images/Group (5).svg">
+            </div>
+        </a>
+        <a class="date-picker">
+            <input type="text" name="daterange" value="01/01/2018 - 01/15/2018" />
+        </a>
+        <a class="clear-all-option">
+            <button>Clear All</button>
+        </a>
+      </div>
+      <div class="page-content"  *ngFor="let document of documentList">
+        <table class="table" (click)="goToDetailPage(document.Document_ID)">
+            <thead>
+            <th>Document ID</th>
+            <th>Created On</th>
+            <th>Name</th>
+            <th>Tenent</th>
+            </thead>
+            <tbody>
+            <tr >
+                <td>{{document.Document_ID.Document_ID}}</td>
+                <td>{{document.createdAt}}</td>
+                <td>{{document.Document_ID.First_Name}}</td>
+                <td>{{document.Tenant_ID?.Tenant_ID}}</td>
+            </tr>
+            </tbody>
+            <thead>
+                <th>Scan ID</th>
+                <th>Created Time</th>
+                <th>Nationality</th>
+                <th>Status</th>
+                </thead>
+                <tbody>
+                <tr >
+                <td>{{document.Scan_ID}}</td>
+                <td>{{document.createdAt}}</td>
+                <td>{{document.Document_ID.Nationality}}</td>
+                <td [ngClass]="document.Tenant_ID.status=='active'?'success-msg':'inactive-message'">{{document.Tenant_ID.status}}</td>
+                </tr>
+                </tbody>
+            </table>
+          <!-- <table class="table">
+              <tr>
+                  <th>Document ID </th>
+                  <th>Created On</th>
+                  <th>Name</th>
+                  <th>Tenent</th>
+              </tr>
+              <tr>
+                  <th>df</th>
+                  <th>fdfd</th>
+                  <th>fd</th>
+                  <th>fd</th>
+              </tr>
+          </table> -->
+      </div>
+</div>

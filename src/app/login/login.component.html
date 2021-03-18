@@ -1,0 +1,23 @@
+<div class="container-fluid">
+    <div class="login-img">
+       <img src="assets/images/Group.png">
+    </div>
+    <div class="login-form">
+       <h1>Welcome</h1>
+       <form>
+          <div class="row">
+             <div class="col-md-12 email">
+                <input type="email" class="form-control" placeholder="Email Address" name="email" [(ngModel)]="loginData.Contact_Email">
+             </div>
+             <div class="col-md-12 password">
+                <input type="password" class="form-control" placeholder="Password" name="password" [(ngModel)]="loginData.password">
+             </div>
+             <div class="remember-link">
+                <input type="checkbox"> <a >Remember me</a>                 
+             </div>
+             <a class="forget-password">Forget Password ?</a>
+             <a><button class="login-btn" (click)="login()">Login</button></a>
+          </div>
+       </form>
+    </div>
+ </div>

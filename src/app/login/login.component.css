@@ -1,0 +1,119 @@
+
+.login-img{
+    position: absolute;
+    width: 904px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;    
+    background: #F7FFFB;
+}
+.login-img img{
+    position: absolute;
+    width: 753.69px;
+    height: 719.52px;
+    left: 80.31px;
+    top: 85px;
+
+}
+
+.login-form h1{
+    position: absolute;
+    width: 145px;
+    height: 38px;
+    left: 971px;
+    top: 271px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    letter-spacing: 0.06em;
+    
+    color: #444445;
+    
+}
+.login-form .email input{
+    position: absolute;
+    width: 380px;
+    height: 50px;
+    left: 969px;
+    top: 372px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.login-form .password input{
+    position: absolute;
+width: 380px;
+height: 50px;
+left: 969px;
+top: 456px;
+
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.remember-link{
+    position: absolute;
+width: 100px;
+height: 16px;
+left: 1000px;
+top: 560px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.06em;
+
+color: #1A1A1A;
+
+}
+.remember-link input{
+    position: absolute;
+    width: 18px;
+    height: 14px;
+    left: -27px;
+    top: -2px;
+    background: #FFFFFF;
+    border: 1px solid #ABABAB;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.forget-password{
+    position: absolute;
+    width: 128px;
+    height: 16px;
+    left: 1221px;
+    top: 560px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    color: #1A1A1A;
+}
+.login-btn{
+    font-size: 17px;
+    position: absolute;
+    width: 209px;
+    height: 47px;
+    left: 1128px;
+    top: 620px;
+    background: #21B371;
+    border: 1px solid #D5D5D5;
+    box-sizing: border-box;
+    border-radius: 14px;
+    color: white;
+}

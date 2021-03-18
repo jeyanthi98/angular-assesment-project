@@ -1,0 +1,109 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #F8F8F8;
+    box-shadow: 2px 4px 11px 1px rgb(0 0 0 );
+    height: 74px
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+ .document-id{
+  position: absolute;
+  width: 406px;
+  height: 21px;
+  left: 711px;
+  top: 27px;
+  color: #45bc53;
+  font-weight: bold;
+  font-size: 17px;
+  }
+   .search-text input{
+    position: absolute;
+    width: 222px;
+    height: 38px;
+    left: 426px;
+    top: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.32);
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  .search-icon{
+    position: absolute;
+    width: 42px;
+    height: 38px;
+    left: 647px;
+    top: 18px;
+    background: #21B371;
+    border: 1px solid #21B371;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  .search-icon img{
+    position: absolute;
+    left: 0%;
+    right: 40%;
+    top: -2%;
+    bottom: 40%;
+    width: 19px;
+    padding: 11px;
+}
+.date-picker input{
+    position: absolute;
+    width: 201px;
+    height: 38px;
+    left: 1040px;
+    top: 18px;  
+    border: 1px solid rgba(0, 0, 0, 0.32);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.clear-all-option button{
+    
+  position: absolute;
+  width: 84px;
+  height: 38px;
+  left: 1337px;
+  top: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.32);
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: #fff;
+}
+.success-msg{
+  color: green;
+}
+.inactive-message{
+  color: #FFC107;
+} 
+.page-content{
+  position: absolute;
+    width: 43%;
+    height: 33%;
+    left: 500px;
+    top: 156px;
+    background: #F8F8F8;
+    box-shadow: 2px 4px 11px 1px rgb(0 0 0 )
+}
+.page-content .col-md-3{
+  padding: 31px;
+}
+
+
+
+

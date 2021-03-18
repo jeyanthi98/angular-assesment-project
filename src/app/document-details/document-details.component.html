@@ -1,0 +1,51 @@
+<cmp-sidebar></cmp-sidebar>
+<div class="container-fluid">
+    <div class="navbar">
+        <span  class="document-id">
+            Document ID : {{documentDetails.Document_ID}}
+        </span>
+     
+      </div>
+      <div class="page-content" >
+          <!-- <div class="row">
+              <div class="col-md-3">
+                  <span>Document ID : {{documentDetails.Document_ID}}</span>
+                  <span>Scan ID     : {{documentDetails.Scan_ID}}</span>
+                  <span>Ip Address : {{documentDetails.ipAddress}}</span>
+
+              </div>
+              <div class="col-md-3">
+                <span>Created On : {{documentDetails.createdAt}}</span>
+                <span>Tenant : {{documentDetails.Tenant_ID}}</span>
+                <span>Scan Status : {{documentDetails.scanResultStatus}}</span>
+              </div>
+          </div> -->
+         <table class="table">
+            <thead>
+            <th>Document ID</th>
+            <th>Created On</th>
+            <th>Tenent</th>
+            </thead>
+            <tbody>
+            <tr >
+            <td>{{documentDetails.Document_ID}}</td>
+            <td>{{documentDetails.createdAt}}</td>
+            <td>{{documentDetails.Tenant_ID}}</td>
+            </tr>
+            </tbody>
+            <thead>
+                <th>Scan ID</th>
+                <th>Created Time</th>
+                <th>Scan Status</th>
+                </thead>
+                <tbody>
+                <tr >
+                <td>{{documentDetails.Scan_ID}}</td>
+                <td>{{documentDetails.createdAt}}</td>
+                <td>{{documentDetails.scanResultStatus}}</td>
+                </tr>
+                </tbody>
+            </table>
+         
+      </div>
+</div>
